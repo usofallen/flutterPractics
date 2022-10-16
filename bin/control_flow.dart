@@ -1,7 +1,6 @@
-void main () {
-
+void main() {
   // COnditional expressions
-
+  var color;
   if (color == 'red') {
     print('red');
   } else if (color == 'blue') {
@@ -15,5 +14,8 @@ void main () {
     print(i);
     //break;
   }
-}
 
+  //assert
+  var txt = 'good';
+  assert(txt != 'bad');
+}
